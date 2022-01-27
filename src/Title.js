@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "./LOG2.png";
 function Title() {
   return (
-    <>
+    <div className="divTitle">
       <div
         style={{
           display: "flex",
@@ -67,24 +67,17 @@ function Title() {
                 Instagram |
               </a>
             </div>
-            <button className="btn1">Kontakt | </button>
+            <Link to="/kontakt">
+              <button className="btn1">Kontakt | </button>
+            </Link>
             <Link to="/info">
               {" "}
               <button className="btn1">Info</button>
             </Link>
           </div>
-
-          <img
-            className="slika1"
-            src={slika1}
-            style={{
-              width: "200px",
-              margin: "100px 0 0 300px",
-            }}
-          ></img>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

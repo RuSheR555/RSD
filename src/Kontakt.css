@@ -1,0 +1,8 @@
+.slika1 {
+  position: relative;
+  right: 0;
+  transition: 1800ms;
+}
+.slika1:hover {
+  right: 50%;
+}

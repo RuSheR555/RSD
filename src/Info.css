@@ -1,3 +1,11 @@
-body {
-  background: url("/src/DSC_2850.jpg");
+@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
+.divInfo {
+  background-size: 1500px;
+  background: url("/src/cura4.jpg");
+  background-position-y: 0;
+}
+.infoTitle {
+  font-family: "Sedgwick Ave", cursive;
+}
+.p1 {
 }

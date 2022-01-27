@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200&display=swap");
+.divTitle {
+  background: url("/src/cura2.jpg");
+  background-size: 1500px;
+}
 .title {
   font-family: "Hepta Slab", serif;
 
