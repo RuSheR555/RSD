@@ -20,7 +20,7 @@
 .slika::after {
   content: "";
   position: absolute;
-  top: 1057px;
+  top: 1115px;
   left: 0;
   width: 100%;
   height: 180px;
@@ -35,7 +35,7 @@
 .grid::after {
   content: "";
   position: absolute;
-  top: 637px;
+  top: 695px;
   left: 0;
   width: 100%;
   height: 180px;

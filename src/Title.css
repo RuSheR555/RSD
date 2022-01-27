@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@200&display=swap");
 .title {
-  font-family: "Abril Fatface", cursive;
-  font-size: 1.3rem;
+  font-family: "Hepta Slab", serif;
+
+  font-size: 1.4rem;
 }
 .btn1 {
   background: transparent;
   color: white;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Hepta Slab", serif;
   border: none;
-  font-size: 1.7rem;
+  font-size: 2rem;
   transition: 300ms;
 }
 .btn1:hover {
@@ -19,8 +22,8 @@
 .btna {
   color: white;
   text-decoration: none;
-  font-family: "Abril Fatface", cursive;
-  font-size: 1.7rem;
+  font-family: "Hepta Slab", serif;
+  font-size: 2rem;
   transition: 300ms;
 }
 .btna:hover {
@@ -28,4 +31,12 @@
   cursor: pointer;
   transition: 300ms;
   transform: scale(1.03);
+}
+.slika1 {
+  position: relative;
+  right: 0;
+  transition: 1800ms;
+}
+.slika1:hover {
+  right: 50%;
 }

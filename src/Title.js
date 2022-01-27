@@ -1,5 +1,7 @@
 import "./Title.css";
-
+import slika1 from "./w32312.png";
+import { Link } from "react-router-dom";
+import logo from "./LOG2.png";
 function Title() {
   return (
     <>
@@ -17,7 +19,15 @@ function Title() {
             flexDirection: "column",
           }}
         >
-          <h1>Mjesto za logo</h1>
+          <div className="logo">
+            <img
+              src={logo}
+              style={{
+                width: "230px",
+                margin: "0 0 -70px -10px",
+              }}
+            ></img>
+          </div>
           <div
             style={{
               marginTop: "50px",
@@ -42,34 +52,36 @@ function Title() {
             marginTop: "90px",
           }}
         >
-          <div>
+          <div
+            style={{
+              display: "flex",
+            }}
+          >
             <button className="btn1">Portfolio |</button>
-            <a
-              className="btna"
-              href="https://www.instagram.com/rsd_photography_/"
-              target="_blank"
-            >
-              Instagram |
-            </a>
+            <div className="btna">
+              <a
+                className="btna"
+                href="https://www.instagram.com/rsd_photography_/"
+                target="_blank"
+              >
+                Instagram |
+              </a>
+            </div>
             <button className="btn1">Kontakt | </button>
-            <button className="btn1">Info</button>
+            <Link to="/info">
+              {" "}
+              <button className="btn1">Info</button>
+            </Link>
           </div>
-          {/* <div>
-            <h3
-              style={{
-                marginTop: "120px",
-              }}
-            >
-              K Teslić | Banja Luka | Doboj
-            </h3>
-            <h3
-              style={{
-                letterSpacing: "4px",
-              }}
-            >
-              T +387/66-289-772
-            </h3>
-          </div> */}
+
+          <img
+            className="slika1"
+            src={slika1}
+            style={{
+              width: "200px",
+              margin: "100px 0 0 300px",
+            }}
+          ></img>
         </div>
       </div>
     </>
